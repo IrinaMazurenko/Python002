@@ -1,5 +1,5 @@
 name = input('What is your name?')
-lastname = input('Enter lasname:')
+lastname = input('Enter lastname:')
 age = input('Enter age:')
 print(type(age))
 
