@@ -9,3 +9,16 @@ else:              # может быть много
 
 print('Hello')
 
+
+
+x = 100
+
+if x == 100:
+    if x -20 == 81:
+    print('OK')
+
+
+x = 50
+
+if x > 0 or x < 50:
+    print("Condition 1 Ok").

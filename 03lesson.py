@@ -27,7 +27,7 @@ print(string_sample[-5:])
 sample = "hello"
 
 print("hello" in string_sample)
-# hello net s mal bukvi
+# hello net s mal bukvi budett  False, mogut bit peremennie
 
 
 
@@ -144,10 +144,14 @@ y = 613.2689
 print('The value of x is %.4f' % x)
 print('The value of x is %.2f' % x)
 
+#ustarev5ii metod
+emp_name 'John'
+emp_age = 30
+emp_salary = 1500
 
-!!!!!!!!!!!!!!!!!!!!
-emp_string = ' Hi, my name is %(name)s! I am %(age)s olg. My salary is'\
-    '%(salary).2f' %
+emp_string = 'Hi, my name is %(name)s! I am %(age)s olg. My salary is'\
+    '%(salary).2f' % {'name': emp_name, 'salary': emp_salary, 'age': emp_age }
+print(emp_string)
 
 salary = 2000
 first = 'Bob'
@@ -163,5 +167,48 @@ print(r' \n Hello World') #r siraja stroka, v nei ni4ego ne proishodit . nikakih
 
 byte_string = b' '  # unicode-table.com можно найти иероглифы
 print(byte_string.decode( ))
+
+!!!!!
+a = 1000
+b = 'John'
+c = 30
+
+print(f'Hi, my name is {b}. I am {c}.My salary is {a} euro.')
+#F formatirovannaja stroka
+
+
+
+x = 5
+print(x)
+
+x += 1  #pribavit 4islo
+print(x)
+
+x = x + 1
+print(x)
+
+
+
+
+sample_string =  'hello'
+sample_string2 =  'Hello \'world\''
+
+print(sample_string2)
+
+# \n perenos stroki                  \\n  perenesjot tekst s sleshom
+# \t tabuljatsija ili 4 probela
+# \b backspace
+# 'Hello \'world\''    that\'s       ostavit kavi4ki
+
+
+
+sample_string3 = """
+FGF
+DGfg
+fgdhg
+dfgh
+"""
+print(sample_string3)
+# perenesjot luboi tekst esli ego stavit v 3 """
 
 

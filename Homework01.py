@@ -1,7 +1,7 @@
 #1. Высчитывает возраст из заданых данных (current_year - нынешний год, year_of_birth - год рождения)
 current_year = 2022
 year_of_birth = 1988
-print("You are", current_year - year_of_birth, 'years old!')
+print("You are", current_year - year_of_birth, 'years old')
 
 
 # code parts
@@ -38,5 +38,11 @@ print(code)
 
 name = "Mary"
 lastname ="Gold"
-sample = 'Hello {}, {}'
-print(sample.format(name,lastname),"You are", current_year - year_of_birth, 'years old!', 'Your secret code is ' , code )
+sample = 'Hello {} {}.'
+print(sample.format(name,lastname),"You are", current_year - year_of_birth, 'years old.', 'Your secret code is', code )
+
+# CORRECTION
+age = current_year - year_of_birth
+code_2 = int(((x % y) * 13) ** 0.5)
+secret_code = f'{code_1}-{code_2}-{code_3}'
+print(f'Hello {name} {lastname}. You are {current_year - year_of_birth} years old. Your secret code is {secret_code}')
