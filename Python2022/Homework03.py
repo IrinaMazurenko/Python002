@@ -13,7 +13,7 @@ for num in sample:
         print(num,'Fizz')
     if num % 5 ==0:
         print(num,'Buzz')
-    if num %2 == 0 and num % 5 ==0:
+    if num %3 == 0 and num % 5 ==0:
         print(num,'FizzBuzz')
 
 
