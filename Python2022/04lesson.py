@@ -132,8 +132,9 @@ print(courses.count('Math')) # s4etaet skolko ra4 zna4enie est v spiske
 
 
 
-
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 # TUPLE kortez
+#ispolzuetsja 4tob izbavitsja ot dublikatov
 
 empty_lst = (1,) # zapjatala pokazet i skobki
 print(empty_lst)
@@ -151,7 +152,7 @@ print(courses)
 #.index   na kakoi pozitsii zna4enie nahoditsja
 
 
-
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 #SET
 # ne uporjadotseno
 empty_lst = {1}

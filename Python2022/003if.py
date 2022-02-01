@@ -43,7 +43,7 @@ for index, value in enumerate (sample_list):
 print(list(enumerate(sample_list)))
 
 
-# .rande
+# .range
 sample_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 x = list(range(0, 101))

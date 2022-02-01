@@ -1,20 +1,20 @@
-people = [
-    ('Jack', 'Smith', 25, 'Male'),
-    ('Mary', 'Gold', 18, 'Female'),
-    ('Sarah', 'Connor', 32, 'Female'),
-    ('Piere', 'Summers', 45, None)
-]
+while True:
+    try:
+      user_input = input('Please enter your ID(type exit to quit): ')
+      if user_input.lower() == 'Exit':
+          break
+      int(user_input)
+      if len(user_input) != 11:
+          if len(user_input) > 11:
+              print('ID is wrong')
+          else:
+              print('ID is too short!')
+          raise UserWarning
 
-for person in people:
-    if person [3] == 'Male':
-        print(f'This is {person[0]} {person[1]}. He is {person[2]} years old.')
-    elif person[3] == 'Female':
-        print(f'This is {person[0]} {person[1]}. She is {person[2]} years old.')
-
-for name, surname, age, gender in people:
-    if gender == 'Male':
-        print(f'This is {name} {surname}. He is {age} years old.')
-    elif gender == 'Female':
-        print(f'This is {name} {surname}. She is {age} years old.')
+    except ValueError:   #AssetionError svobodnaja o6ibka \UserWarning
+        print('ID you entered is not numeric!')
+    except UserWarning:
+        print('ID  you entered is not 11 digits long')
     else:
-        print(f'This is {name} {surname}. It is {age} years old.')
+        print(user_input)
+        break
