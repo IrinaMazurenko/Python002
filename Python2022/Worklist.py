@@ -1,4 +1,3 @@
-import time
+import datetime
 
-start = time.time()
-print(start)
+today = datetime.datetime.now()
