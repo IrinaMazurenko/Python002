@@ -1,0 +1,27 @@
+body {
+    background-color: blue;
+    }
+#username{
+   background-color: red;
+   }
+.inputfield {
+    background-color: pink;
+}
+
+a:link {
+    color: lime;
+}
+
+a:visites {
+    color:red;
+    }
+
+a:hover {
+    color:coral;
+    font-size: 40px;
+}
+
+a: active {
+    color: blue;
+    font-size: 40px;
+}
